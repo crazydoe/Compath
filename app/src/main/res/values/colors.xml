@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#596272</color>
+    <color name="colorPrimaryDark">#323436</color>
+    <color name="colorAccent">#01579b</color>
+    <color name="textColor">#b0bec5</color>
+    <color name="textSecondaryColor">#e0f2f1</color>
+    <color name="drawbarLogoColor">#4A5161</color>
+
+
+</resources>

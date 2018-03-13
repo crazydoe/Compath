@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_navigation"
+            android:icon="@drawable/ic_navigation_black_48dp"
+            android:title="@string/navi_menu_name" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_stars_black_48dp"
+            android:title="@string/favorite_menu_name" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_48dp"
+            android:title="@string/history_menu_name" />
+
+        <item
+            android:id="@+id/nav_actual_coor"
+            android:icon="@drawable/ic_gps_fixed_black_48dp"
+            android:title="@string/coordinates_menu_name" />
+    </group>
+
+    <item android:title="Narzędzia">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_48dp"
+                android:title="@string/settings_menu_name" />
+            <item
+                android:id="@+id/nav_quit"
+                android:icon="@drawable/ic_close_black_48dp"
+                android:title="@string/quit_menu_name" />
+        </menu>
+    </item>
+
+</menu>
